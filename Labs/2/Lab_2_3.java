@@ -7,7 +7,7 @@ public class Lab_2_3 {
 		int min = banter.nextInt();
 		System.out.println("What is the largest number you want: ");
 		int max = banter.nextInt();
-		int num = (int)(Math.random()*max)+min;
+		int num = (int)(Math.random()*max)+min; // JA: It was three random values
 		
 		System.out.println("Your number is " + num);
 	}
