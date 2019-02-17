@@ -5,7 +5,7 @@ public class Lab_3_6 {
 		Scanner banter = new Scanner(System.in);
 		
 		System.out.println("Enter a word: ");
-		String word = banter.next();
+		String word = banter.nextLine(); // JA
 		System.out.println("The amount of vowels are " + amountOfVowels(word));
 	}
 
