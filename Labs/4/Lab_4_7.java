@@ -19,6 +19,7 @@ public class Lab_4_7 {
 			}
 		}
 		
+		// JA: ?
 		String[] noDups = splitNumbers.split(" ");
 		
 		for(int i = 0; i < noDups.length; i++) {
