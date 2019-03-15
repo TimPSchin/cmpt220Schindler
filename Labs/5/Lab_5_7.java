@@ -17,10 +17,10 @@ public class Lab_5_7 {
 			}
 		}
 		
-		if(isUpperTriangular(matrix) == true) {
-			System.out.println("Your matrix is upper triangular?");
+		if(isUpperTriangular(matrix)) {
+			System.out.println("Your matrix is upper triangular");
 		}else {
-			System.out.println("Your matrix is not upper triangular?");
+			System.out.println("Your matrix is not upper triangular");
 		}
 		
     }

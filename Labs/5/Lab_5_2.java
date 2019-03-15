@@ -30,7 +30,7 @@ public class Lab_5_2 {
 		for(int i = 0; i < 10; i++) {
 			sum += Math.pow((x[i]-mean(x)), 2);
 		}
-		divided = sum/(x.length);
+		divided = sum/(x.length - 1); // JA
 		deviation = Math.sqrt(divided);
 		return deviation;
 	}

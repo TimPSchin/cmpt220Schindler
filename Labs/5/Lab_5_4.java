@@ -28,6 +28,7 @@ public class Lab_5_4 {
 	
 	public static boolean equal(int[] x, int[] y) {
 		
+		// JA: This does not sort the array correctly
 		for (int i = 0; i < x.length; i++) {
 		    for (int j = i; j < x.length; j++) {
 		      if (x[j] < x[i]) {

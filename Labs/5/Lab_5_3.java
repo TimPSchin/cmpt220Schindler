@@ -24,7 +24,7 @@ public class Lab_5_3 {
 		        scores[j] = scores[i];
 		        scores[i] = temp;
 		        
-		        holdName = names[i];
+		        holdName = names[j]; // JA
 			    names[j] = names[i];
 		        names[i] = holdName;
 		      }
