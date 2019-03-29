@@ -2,11 +2,13 @@ package softwareDevelopement;
 
 public class Square {
 
-	public double width;
+	public double width = 1;
 	
 	public Square(double width) {
 		this.width = width;
 	}
+	
+	public Square(){}
 	
 	public double getArea() {
 		return width*width;
