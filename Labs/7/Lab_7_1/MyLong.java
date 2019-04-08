@@ -79,17 +79,17 @@ public class MyLong {
 	}
 	
 	public static long[] parseLong(char[] x) {
-		long[] hold = new long[x.length];
+		long hold = 0;
 		for(int i = 0; i < x.length; i++) {
-			hold[i] = (long)x[i];
+			hold *= 10 + (x[i] - '0');
 		}
 		return hold;
 	}
 	
 	public static long[] parseLong(String x) {
-		long[] hold = new long[x.length()];
+		long hold = 0;
 		for(int i = 0; i < x.length(); i++) {
-			hold[i] = (long)x;
+			hold *= 10 + (x.charAt(i) - '0');
 		}
 		return hold;
 	}
