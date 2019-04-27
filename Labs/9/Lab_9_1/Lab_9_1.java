@@ -11,10 +11,16 @@ public class Lab_9_1 {
 		
 		System.out.println("What index do you want?");
 		int num = banter.nextInt();
-		if(num > 100 || num < 1) {
-			System.out.println("Out of Bounds");
-		}else {
-		System.out.println("That number is " + array[num-1]);
+		
+		try{
+			int value = array[num-1];
+			System.out.println("That number is " + value);
 		}
+		catch(ArrayIndexOutOfBoundsException ex) {	
+			System.out.println("Out of Bounds");
+		}
+			
+		
+	
 	}
 }
