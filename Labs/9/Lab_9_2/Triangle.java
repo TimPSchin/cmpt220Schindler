@@ -13,7 +13,7 @@ public class Triangle extends GeometricObject {
 		this.side1 = s1;
 		this.side2 = s2;
 		this.side3 = s3;
-		if(side1 + side2 < side3 || side3 + side2 < side1 || side1 + side3 < side2) {
+		if(side1 + side2 <= side3 || side3 + side2 <= side1 || side1 + side3 <= side2) {
 			throw new IllegalTriangleException();
 		}
 	}
